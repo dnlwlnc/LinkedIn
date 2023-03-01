@@ -20,3 +20,20 @@ Guidelines:
 Use the minimal number of tables required.
 Use the correct logical join types and force join order as needed.
 */
+
+USE Animal_Shelter; 
+
+select  A.Name, A.Species, A.Breed, A.Primary_Color, V.Vaccination_Time, V.Vaccine, P.First_Name, P.Last_Name, SA.Role
+from    Animals A
+        left outer join 
+        (Vaccinations V
+            INNER JOIN Staff S
+                on S.Email = V.Email
+            inner join Persons P
+                on S.Email = P.Email
+            inner join Staff_Assignments SA
+                on S.Email = SA.Email
+        )
+            on A.Name = V.Name
+            and 
+            A.Species = V.Species;
