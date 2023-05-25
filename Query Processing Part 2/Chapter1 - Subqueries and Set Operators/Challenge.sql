@@ -47,3 +47,23 @@ Guidelines:
 \____/\____/\____/\__,_/  /_____/\__,_/\___/_/|_(_)   
                                                       
 */
+
+select *
+from dbo.Animals
+
+select *
+from dbo.Adoptions;
+
+select 
+   Species, 
+   Breed
+from Animals
+except 
+select 
+   an.Species,
+   an.Breed
+from animals as an 
+inner join 
+   adoptions as ad
+   on an.Species = ad.Species and
+      an.Name = ad.Name
