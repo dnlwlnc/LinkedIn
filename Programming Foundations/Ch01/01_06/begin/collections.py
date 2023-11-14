@@ -17,22 +17,22 @@
 # Solution
 
 stars = [
-    'Sol',
-    'Alpha Centauri',
-    'Barnard',
-    'Wolf 359',
+    "Sol",
+    "Alpha Centauri",
+    "Barnard",
+    "Wolf 359",
 ]
 
 print(stars[3])
 
 peaks = {
-    'Africa': 'Kilimanjaro',
-    'Antarctica': 'Vinson',
-    'Australia': 'Puncak Jaya',
-    'Eurasia': 'Everest',
-    'North_America': 'Denali',
-    'Pacific': 'Mauna Kea',
-    'South_America': 'Aconcagua',
+    "Africa": "Kilimanjaro",
+    "Antarctica": "Vinson",
+    "Australia": "Puncak Jaya",
+    "Eurasia": "Everest",
+    "North_America": "Denali",
+    "Pacific": "Mauna Kea",
+    "South_America": "Aconcagua",
 }
 
-print(peaks['Pacific'])
+print(peaks["Pacific"])
