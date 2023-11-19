@@ -1,9 +1,9 @@
 spices = [
-    'salt',
-    'pepper',
-    'cumin',
-    'turmeric',
+    "salt",
+    "pepper",
+    "cumin",
+    "turmeric",
 ]
 for spice in spices:
     print(spice)
-print('No more boring omelettes!')
+print("No more boring omelettes!")

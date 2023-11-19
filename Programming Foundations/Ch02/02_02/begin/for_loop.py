@@ -1,6 +1,6 @@
 spices = [
-    'salt',
-    'pepper',
-    'cumin',
-    'turmeric',
+    "salt",
+    "pepper",
+    "cumin",
+    "turmeric",
 ]

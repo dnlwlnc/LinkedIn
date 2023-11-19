@@ -1,8 +1,8 @@
 fruits = [
-    'apples',
-    'bananas',
-    'dragon fruit',
-    'mangos',
-    'nectarines',
-    'pears',
+    "apples",
+    "bananas",
+    "dragon fruit",
+    "mangos",
+    "nectarines",
+    "pears",
 ]
